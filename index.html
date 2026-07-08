@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal website for Waleed Akbar" />
+  <title>Waleed Akbar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Waleed Akbar</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Wireless Sensing · Imaging · Low-Power Systems</p>
+        <h1>Hi, I’m Waleed.</h1>
+        <p class="lead">
+          I build low-power and efficient wireless sensing and imaging systems for applications
+          spanning in-home monitoring, industrial sensing, underwater IoT, and 3D perception.
+        </p>
+        <div class="buttons">
+          <a class="button primary" href="#publications">View Publications</a>
+          <a class="button" href="assets/Waleed_Akbar_CV.pdf">Download CV</a>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="avatar-placeholder">WA</div>
+        <h2>Waleed Akbar</h2>
+        <p>PhD, MIT EECS</p>
+        <p class="muted">R&D Engineer · Wireless sensing researcher</p>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <h2>Research</h2>
+      <p>
+        My work focuses on designing wireless systems that push sensing and imaging into settings
+        where power, bandwidth, deployment complexity, and environmental constraints make traditional
+        approaches difficult.
+      </p>
+      <div class="grid">
+        <article class="card">
+          <h3>Underwater Backscatter</h3>
+          <p>
+            Battery-free and low-power acoustic backscatter systems for underwater communication,
+            sensing, and networking.
+          </p>
+        </article>
+        <article class="card">
+          <h3>mmWave 3D Imaging</h3>
+          <p>
+            Sparse radar sensing and reconstruction methods for object-level 3D perception beyond
+            traditional camera-based pipelines.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Low-Power Sensing</h3>
+          <p>
+            Hardware-software co-design for efficient sensing platforms operating under tight power
+            and deployment constraints.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Selected Publications</h2>
+      <div class="pub-list">
+        <article class="publication">
+          <h3>Bringing All Modulation to Underwater Backscatter via PDM Synthesis</h3>
+          <p><strong>Waleed Akbar</strong>, et al. ACM SenSys, 2026.</p>
+          <p class="links"><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">BibTeX</a></p>
+        </article>
+        <article class="publication">
+          <h3>Underwater Backscatter Channel</h3>
+          <p><strong>Waleed Akbar</strong>, et al. ACM MobiCom, 2023. Best Paper Award.</p>
+          <p class="links"><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">BibTeX</a></p>
+        </article>
+        <article class="publication">
+          <h3>Van Atta Acoustic Networks</h3>
+          <p><strong>Waleed Akbar</strong>, et al. ACM SIGCOMM, 2023.</p>
+          <p class="links"><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">BibTeX</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Battery-Free Underwater IoT</h3>
+          <p>Systems for low-power underwater communication and sensing using acoustic backscatter.</p>
+        </article>
+        <article class="card">
+          <h3>mmWave Object Reconstruction</h3>
+          <p>Learning-based reconstruction of complete 3D object structure from sparse mmWave radar returns.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br />
+        Google Scholar: <a href="#">Profile</a><br />
+        GitHub: <a href="#">Profile</a><br />
+        LinkedIn: <a href="#">Profile</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Waleed Akbar. Built with GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
