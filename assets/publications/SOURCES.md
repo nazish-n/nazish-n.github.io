@@ -24,3 +24,5 @@
 - `perfuse-demo.gif`, `perfuse-demo-still.jpg`: converted from user-provided `perfuse.m4v`, replacing the static PerFuSe figure. Entire clip, original aspect ratio, 600-pixel width, 12 fps, infinite loop.
 
 - `perfuse-demo-v2.gif`, `perfuse-demo-v2-still.jpg`: regenerated from the updated user-provided `perfuse.m4v`; entire clip, 12 fps, 600-pixel width, infinite loop. Replaces the previous animation and reduced-motion still.
+
+- `perfuse-demo-top-right.gif`, `perfuse-demo-top-right-still.jpg`: top-right quarter of the updated PerFuSe animation and still, cropped at the user’s request; frame timing and infinite looping preserved.
