@@ -131,3 +131,40 @@ h2 { font-family: Georgia, serif; font-weight: normal; font-size: 30px; letter-s
 
 /* Show the full PDM-Synthesis figure with white space inside the shared frame. */
 .pub-figure img[src="assets/publications/pdm-synthesis-figure.png"] { object-fit: contain; object-position: center; background: #fff; }
+
+/* Mobile layout: readable content, comfortable links, and no table overflow. */
+@media (max-width: 600px) {
+  html { scroll-padding-top: 20px; }
+  .site-header { position: static; background: var(--bg); }
+  .nav { padding: 16px 20px 10px; gap: 8px; }
+  .brand { font-size: 22px; }
+  .nav-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 8px; font-size: 13px; }
+  .nav-links a { display: flex; align-items: center; min-height: 44px; }
+  main { padding: 0 20px 44px; }
+  .intro { gap: 28px; padding: 28px 0 32px; }
+  .profile { display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 20px; align-items: start; }
+  .profile-photo { grid-column: 1; grid-row: 1 / 4; width: 112px; }
+  .profile-photo img { height: 140px; }
+  .profile h1 { grid-column: 2; margin: 8px 0 4px; font-size: 28px; letter-spacing: -.6px; }
+  .affiliation { grid-column: 2; font-size: 14px; }
+  .profile-links { grid-column: 1 / -1; gap: 24px; margin-top: 12px; font-size: 14px; flex-wrap: wrap; }
+  .profile-links a { display: inline-flex; align-items: center; min-height: 44px; }
+  #about .eyebrow { margin-bottom: 14px; }
+  #about p:not(.eyebrow) { line-height: 1.75; }
+  h2 { font-size: 28px; }
+  .section-heading { margin-bottom: 24px; }
+  .pub-table, .pub-table tbody, .pub-table tr { display: block; width: 100%; }
+  .pub-entry { width: 100%; grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 26px 0; font-size: 15px; line-height: 1.7; overflow-wrap: anywhere; }
+  .pub-figure { width: 100%; max-width: 360px; }
+  .pub-details > strong:first-child { font-size: 18px; line-height: 1.45; }
+  .pub-entry a { min-height: 44px; padding: 10px 0; font-size: 14px; }
+  #awards li > .award-entry { flex-direction: column; align-items: flex-start; gap: 2px; }
+  #awards li, #talks li, #teaching li { padding-top: 10px; padding-bottom: 10px; line-height: 1.65; }
+  #contact p { font-size: 15px; overflow-wrap: anywhere; line-height: 2.5; }
+}
+@media (max-width: 360px) {
+  .profile { grid-template-columns: 96px minmax(0, 1fr); column-gap: 16px; }
+  .profile-photo { width: 96px; }
+  .profile-photo img { height: 124px; }
+  .profile h1 { font-size: 25px; }
+}
