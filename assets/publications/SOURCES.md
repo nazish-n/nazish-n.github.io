@@ -26,3 +26,7 @@
 - `perfuse-demo-v2.gif`, `perfuse-demo-v2-still.jpg`: regenerated from the updated user-provided `perfuse.m4v`; entire clip, 12 fps, 600-pixel width, infinite loop. Replaces the previous animation and reduced-motion still.
 
 - `perfuse-demo-top-right.gif`, `perfuse-demo-top-right-still.jpg`: top-right quarter of the updated PerFuSe animation and still, cropped at the user’s request; frame timing and infinite looping preserved.
+
+
+
+- `perfuse-demo-right-half-lower.gif` and corresponding still: moved the right-half crop 25 pixels lower to rectangle (300, 45)–(600, 214), preserving the 300×169 dimensions and original timing.
