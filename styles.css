@@ -211,3 +211,5 @@ a.resource-link:hover { background: var(--text); color: var(--bg); }
 .contact-icon svg { display: block; width: 27px; height: 27px; }
 .contact-icon:hover { background: var(--accent); color: #fff; text-decoration: none; }
 .contact-icon:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+
+.award-institution::before { content: " — "; }
