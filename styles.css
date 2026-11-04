@@ -178,6 +178,7 @@ h2 { font-family: Georgia, serif; font-weight: normal; font-size: 30px; letter-s
 /* Outlined resource links for publications, talks, and lectures. */
 a.resource-link, .pub-entry a.resource-link {
   display: inline-block;
+  min-height: 0;
   border: 1px solid var(--text);
   border-radius: 2px;
   padding: 3px 12px;
