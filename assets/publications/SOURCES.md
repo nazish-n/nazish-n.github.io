@@ -30,3 +30,5 @@
 
 
 - `perfuse-demo-right-half-lower.gif` and corresponding still: moved the right-half crop 25 pixels lower to rectangle (300, 45)–(600, 214), preserving the 300×169 dimensions and original timing.
+
+- `perfuse_animation.gif`: user-provided animation, used directly for the PerFuSe publication without additional cropping or re-encoding. `perfuse-animation-still.jpg` is its first frame for reduced-motion preferences.
